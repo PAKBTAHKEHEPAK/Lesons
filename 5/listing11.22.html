@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script lang="JavaScript">
+        function doit()
+        {
+            var greeting="Мне нравится "
+            alert(greeting + document.aform.color.value + " " + document.aform.geometr.value)
+            var prich="Потому, что "
+            alert(prich + document.aform.prichina.value)
+            alert("Количество букв в названии вашей фигуры " + document.aform.geometr.value.lenght)
+        }
+    </script>
+  </head>
+  <body>
+    <center>
+        <from name="aform">
+            Ваша любимая геометрическая фигура:
+            <input type="text" name="geometr"><p>
+            Ваш любимый цвет:
+            <input type="text" name="color"><p>
+            Почему вам нравиться фигура:
+            <input type="text" name="prichina"><p>
+            <input type="button" value="Ответить" onclick="doit()"></input>
+        </from>
+    </center>
+  </body>
+</html>

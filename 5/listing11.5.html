@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Метод confirm()</title>
+    <script lang="JavaScript">
+        function okno()
+        {
+            if (confirm("Вы действительно желаете закрыть окно браузера?"))
+        {
+        alter("До свидание!")
+        window.close()
+        }
+        else
+        {
+        alter("Тогда оставайтесь")
+        }
+        }
+    </script>
+</head>
+<body onLoad="okno()">
+</body>
+</html>

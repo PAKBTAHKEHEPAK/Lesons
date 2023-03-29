@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>getElementsByTagName</title>
+    <script lang="JavaScript">
+        function getElements()
+        {
+            var x=document.getElementsByTagName("input");
+            alert(x.length);
+        }
+    </script>
+  </head>
+  <body>
+    <input name="myInput" type="text" size="30" /><br />
+    <input name="myInput" type="text" size="30" /><br />
+    <input name="myInput" type="text" size="30" /><br />
+    <br />
+    <input type="button" onclick="getElements()" value="Посчитаем элементы input" />
+  </body>
+</html>

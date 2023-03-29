@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>navigator</title>
+  </head>
+  <body>
+    <script lang="JavaScript">
+        var an = navigator.appName;
+        var av = navigator.appVersion;
+        var acn = navigator.appCodeName;
+        var ua = navigator.userAgent;
+        var cook = navigator.cookieEnabled;
+        var blang = navigator.browserLanguage;
+        var slang = navigator.systemLanguage;
+        var ulang = navigator.userLanguage;
+        var platf = navigator.platform;
+        var cpu = navigator.cpuClass;
+        document.write(
+          "<b>Ваш браузер</b> "+an+
+          "<b>версии</b>"+av+
+          "<br><b>Его кодовое имя</b>"+anc+
+          "<b>и заголовок протокола</b>"+ua+
+          "<br><b>Текущее значение cookies</b>"+cook+
+          "<br><b>Текущий язык браузера</b>"+blang+
+          "<br><b>Язык OC by default </b>"+slang+
+          "<br><b>Пользовательские настройки языка OC </b>"+ulang+
+          "<br><b>Платформа OC </b>"+platf+
+          "<br><b>Тип процессора вашего компьютера </b>"+cpu);
+    </script>
+  </body>
+  </html>

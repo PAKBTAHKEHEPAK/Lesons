@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body id="forms">
+    <form method="post" action="/projects/1">
+        <fieldset id="personal_information">
+            <legend>Информация по проекту</legend>
+            <ol>
+                <li>
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" autofocus id="name">
+                </li>
+                <li>
+                    <label for="priority">Приоритет</label>
+                    <input type="range" min="0" max="10" name="priority" value="0">
+                </li>
+                <li>
+                    <label for="estimaed_hours">Оценочное время</label>
+                    <input type="number" name="estimaed_hours" min="0" max="1000" id="priority">
+                </li>
+                <li>
+                    <label for="start_date">Начало проекта</label>
+                    <input type="date" name="start_date" id="start_date" value="2011-10-01">
+                </li>
+                <li>
+                    <label for="email">Email contact</label>
+                    <input type="email" name="email" id="email" placeholder="MyEmail@email.com">
+                </li>
+                <li>
+                    <label for="url"> Адрес сайта</label>
+                    <input type="url" name="url" id="url">
+                </li>
+                <li>
+                    <label for="project_color">Цвет</label>
+                    <input type="color" name="project_color" id="project_color">
+                </li>
+                <li>
+                    <input type="button" value="Подтвердить">
+                </li>
+            </ol>
+        </fieldset>
+    </form>
+  </body>
+</html>
